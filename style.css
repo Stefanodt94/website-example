@@ -1,0 +1,118 @@
+.head-banner {
+    padding-top: 18rem;
+    padding-bottom: 8rem;
+    background-image: url(https://www.bmw-hubauer.de/wp-content/themes/yootheme/cache/61/header-bmw-m4-03-2021-6155f300.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .head-banner {
+        padding-top: 22rem;
+        padding-bottom: 12rem;
+    }
+}
+
+.logo {
+    max-width: 3rem;
+    max-height: 3rem;
+    background-color: white;
+}
+
+.navbar {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Montserrat' sans-serif;
+    font-size: large;
+    font-weight: normal;
+}
+
+.überschrift {
+    font-style: 'Montserrat' sans serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.text {
+    font-style: 'Montserrat' sans serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    padding-top: 10%;
+    overflow: hidden;
+}
+
+.überschrift1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: blue;
+}
+
+.card {
+    width: 18rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.list {
+    padding-top: 10%;
+}
+
+.hr-divider {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    max-width: 100%;
+    width: 30px;
+    height: auto;
+    margin-top: -10%;
+}
+
+.txt {
+    margin-top: -25%;
+}
+
+.title {
+    max-width: 100%;
+}
+
+.header {
+    margin-top: -5%;
+}
+
+.modelsimage {
+    border: 0,5 solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 30%;
+    margin: auto;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
