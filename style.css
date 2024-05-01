@@ -16,7 +16,6 @@
 .logo {
     max-width: 3rem;
     max-height: 3rem;
-    background-color: white;
 }
 
 .navbar {
@@ -115,4 +114,14 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.logos .col-4:first-child {
+    margin-top: -1rem;
+}
+
+.request {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
 }
